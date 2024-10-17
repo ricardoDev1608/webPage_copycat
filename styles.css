@@ -1,0 +1,177 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+    background-color: #1F2937;
+    width: 100%;
+    padding: 1% 10% 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+nav h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li{
+    list-style: none;
+    color: #E5E7EB;
+}
+
+.bh1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bh2{
+    width: 100%;
+    background-color: #8d8d8d;
+    height: auto;
+}
+
+.bottom-head{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 40px;
+}
+
+.bottom-head h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bottom-head p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.bottom-head button{
+    background-color: #3882F6;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#random{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-bottom: 80px;
+}
+
+.gallery img{
+    border: 0.2rem solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+.images p{
+    width: 80%;
+}
+
+.quote{
+    width: 100%;
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text{
+    width: 60%;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 150;
+}
+
+.last-div{
+    width: 75%;
+    border-radius: 0.6rem;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#sign-up2{
+    background-color: #3882F6;
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    outline: 2px solid white;
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+footer{
+    color: white;
+    background-color: #1F2937;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
